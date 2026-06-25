@@ -15,12 +15,7 @@
 
 <!-- Hero / Mission -->
 <section class="bg-aquamarine-300">
-	<div class="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
-		<span
-			class="inline-block border-2 border-gunmetal-900 bg-gunmetal-50 px-3 py-1 text-sm font-bold shadow-brutal-sm"
-		>
-			Accessibility tech · Computer use
-		</span>
+	<div class="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
 		<h1 class="mt-6 max-w-3xl text-4xl font-extrabold leading-tight tracking-tight text-gunmetal-900 sm:text-6xl">
 			We use EMG devices to promote agency.
 		</h1>
@@ -32,6 +27,11 @@
 			<Button href="#contact" variant="dark">Get in touch</Button>
 			<Button href="/tech" variant="ghost">Explore the tech</Button>
 		</div>
+		<span
+			class="inline-block border-2 border-gunmetal-900 bg-gunmetal-50 px-3 mt-5 py-1 text-sm font-bold shadow-brutal-sm"
+		>
+			Accessibility tech · Computer use
+		</span>
 	</div>
 </section>
 
