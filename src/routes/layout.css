@@ -1,1 +1,85 @@
 @import 'tailwindcss';
+
+/* openemg.com design tokens — palettes from PROJECT.md + neobrutalism primitives.
+   Tailwind 4 auto-generates bg-/text-/border-/ring- utilities from --color-* tokens. */
+@theme {
+	/* Gunmetal — neutral base (light backgrounds, dark text/borders) */
+	--color-gunmetal-50: #f1f3f2;
+	--color-gunmetal-100: #e4e7e6;
+	--color-gunmetal-200: #c9cfcc;
+	--color-gunmetal-300: #aeb7b3;
+	--color-gunmetal-400: #939f99;
+	--color-gunmetal-500: #788780;
+	--color-gunmetal-600: #606c66;
+	--color-gunmetal-700: #48514d;
+	--color-gunmetal-800: #303633;
+	--color-gunmetal-900: #181b1a;
+	--color-gunmetal-950: #111312;
+
+	/* Aquamarine — primary brand accent */
+	--color-aquamarine-50: #eafbf5;
+	--color-aquamarine-100: #d4f7ec;
+	--color-aquamarine-200: #aaeed9;
+	--color-aquamarine-300: #7fe6c5;
+	--color-aquamarine-400: #55ddb2;
+	--color-aquamarine-500: #2ad59f;
+	--color-aquamarine-600: #22aa7f;
+	--color-aquamarine-700: #19805f;
+	--color-aquamarine-800: #115540;
+	--color-aquamarine-900: #082b20;
+	--color-aquamarine-950: #061e16;
+
+	/* Lavender blush — muted secondary */
+	--color-lavender-blush-50: #f5f0f2;
+	--color-lavender-blush-100: #ebe0e5;
+	--color-lavender-blush-200: #d7c1cb;
+	--color-lavender-blush-300: #c3a2b1;
+	--color-lavender-blush-400: #ae8497;
+	--color-lavender-blush-500: #9a657d;
+	--color-lavender-blush-600: #7b5164;
+	--color-lavender-blush-700: #5d3c4b;
+	--color-lavender-blush-800: #3e2832;
+	--color-lavender-blush-900: #1f1419;
+	--color-lavender-blush-950: #160e11;
+
+	/* Fiery terracotta — warm accent */
+	--color-fiery-terracotta-50: #fdece7;
+	--color-fiery-terracotta-100: #fcd8cf;
+	--color-fiery-terracotta-200: #f9b19f;
+	--color-fiery-terracotta-300: #f68a6f;
+	--color-fiery-terracotta-400: #f3633f;
+	--color-fiery-terracotta-500: #f03c0f;
+	--color-fiery-terracotta-600: #c0300c;
+	--color-fiery-terracotta-700: #902409;
+	--color-fiery-terracotta-800: #601806;
+	--color-fiery-terracotta-900: #300c03;
+	--color-fiery-terracotta-950: #220802;
+
+	/* Vivid orchid — cool accent */
+	--color-vivid-orchid-50: #f8ecf8;
+	--color-vivid-orchid-100: #f2d9f1;
+	--color-vivid-orchid-200: #e4b4e3;
+	--color-vivid-orchid-300: #d78ed5;
+	--color-vivid-orchid-400: #ca68c7;
+	--color-vivid-orchid-500: #bd42b9;
+	--color-vivid-orchid-600: #973594;
+	--color-vivid-orchid-700: #71286f;
+	--color-vivid-orchid-800: #4b1b4a;
+	--color-vivid-orchid-900: #260d25;
+	--color-vivid-orchid-950: #1a091a;
+
+	/* Neobrutalism shadow primitives — hard offset, no blur, gunmetal-900 ink */
+	--shadow-brutal: 4px 4px 0 0 var(--color-gunmetal-900);
+	--shadow-brutal-lg: 8px 8px 0 0 var(--color-gunmetal-900);
+	--shadow-brutal-sm: 2px 2px 0 0 var(--color-gunmetal-900);
+}
+
+/* Base page styling */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--color-gunmetal-50);
+	color: var(--color-gunmetal-900);
+}

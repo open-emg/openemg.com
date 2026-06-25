@@ -106,3 +106,11 @@ MCP: ❌ No official MCP. Use docs directly. Docs: https://tailwindcss.com/docs
 #### Neobrutalism Design System
 
 MCP: ❌ No official MCP. Reference the GitHub repo directly. Reference: https://github.com/olegpolin/neobrutalism-svelte
+
+Hand-rolled (no dependency). The look is encapsulated in `src/lib/components/Button.svelte` and `Card.svelte` and the `@theme` tokens in `src/routes/layout.css`.
+
+#### Formspree (interest form backend)
+
+MCP: ❌ No official MCP. Docs: https://help.formspree.io
+
+The landing-page interest form posts to Formspree endpoint `https://formspree.io/f/mykqevwq` from `src/lib/components/InterestForm.svelte` (fetch + `Accept: application/json`, with a native `<form>` POST fallback). No `@formspree/*` package is installed. See `SETUP.md` for details.
