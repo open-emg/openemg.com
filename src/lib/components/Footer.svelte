@@ -16,7 +16,7 @@
 			<p class="text-2xl font-extrabold tracking-tight">Ready to build something accessible?</p>
 			<p class="mt-1 text-gunmetal-300">Book a meeting and tell us what you need.</p>
 		</div>
-		<Button href={bookingUrl} variant="primary" class="shrink-0">Book a meeting →</Button>
+		<Button rel="noopener noreferrer" target="_blank" href={bookingUrl} variant="primary" class="shrink-0">Book a meeting →</Button>
 	</div>
 	<div class="border-t-2 border-gunmetal-700 px-4 py-4 text-sm text-gunmetal-400 sm:px-6">
 		© {year} openEMG · Accessibility tech for computer use

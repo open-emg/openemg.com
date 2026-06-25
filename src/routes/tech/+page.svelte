@@ -2,6 +2,8 @@
 	// Tech page: explains the biosignal technology, starting with Surface EMG.
 	import Card from '$lib/components/Card.svelte';
 	import Button from '$lib/components/Button.svelte';
+
+	import exampleImage from '$lib/assets/emg_demo.jpeg';
 </script>
 
 <svelte:head>
@@ -38,6 +40,8 @@
 							href="https://en.wikipedia.org/wiki/Electromyography"
 							variant="ghost"
 							class="px-4 py-2"
+							rel="noopener noreferrer"
+							target="_blank"
 						>
 							Wikipedia: Electromyography ↗
 						</Button>
@@ -45,6 +49,8 @@
 							href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3821366/"
 							variant="ghost"
 							class="px-4 py-2"
+							rel="noopener noreferrer"
+							target="_blank"
 						>
 							Research paper ↗
 						</Button>
@@ -52,7 +58,7 @@
 				</div>
 				<div class="border-2 border-gunmetal-900 shadow-brutal overflow-hidden">
 					<img
-						src="/emg_demo.jpeg"
+						src={exampleImage}
 						alt="A surface EMG device reading muscle signals from the skin"
 						class="h-full w-full object-cover"
 					/>

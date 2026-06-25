@@ -2,6 +2,7 @@
 	// Navbar: sticky top navigation with logo and primary links.
 	// Collapses to a toggled menu on small screens.
 	import Button from './Button.svelte';
+	import logo from "$lib/assets/openemg.png"
 
 	const links = [
 		{ label: 'Home', href: '/' },
@@ -19,7 +20,7 @@
 <header class="sticky top-0 z-50 border-b-2 border-gunmetal-900 bg-aquamarine-300">
 	<nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
 		<a href="/" class="flex items-center gap-2" onclick={close}>
-			<img src="/openemg.png" alt="openEMG logo" class="h-9 w-auto" />
+			<img src={ logo } alt="openEMG logo" class="h-9 w-auto rounded-md" />
 			<span class="text-lg font-extrabold tracking-tight text-gunmetal-900">openEMG</span>
 		</a>
 

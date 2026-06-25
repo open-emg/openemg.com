@@ -1,5 +1,5 @@
 <script lang="ts">
-	// InterestForm: collects name, email, and email-updates consent, then posts
+	// InterestForm: collects name, email, an optional reason, and email-updates consent, then posts
 	// to Formspree via fetch (Accept: application/json) for an inline result.
 	// Falls back to a native form POST when JavaScript is unavailable.
 	import Button from './Button.svelte';
@@ -83,6 +83,18 @@
 				autocomplete="email"
 				class="border-2 border-gunmetal-900 bg-gunmetal-50 px-3 py-2.5 shadow-brutal-sm focus:outline-2 focus:outline-offset-2 focus:outline-vivid-orchid-500"
 			/>
+		</div>
+
+		<div class="flex flex-col gap-1">
+			<label for="if-reason" class="font-bold text-gunmetal-900">
+				Why are you interested? <span class="font-normal text-gunmetal-500">(optional)</span>
+			</label>
+			<textarea
+				id="if-reason"
+				name="reason"
+				rows="3"
+				class="border-2 border-gunmetal-900 bg-gunmetal-50 px-3 py-2.5 shadow-brutal-sm focus:outline-2 focus:outline-offset-2 focus:outline-vivid-orchid-500"
+			></textarea>
 		</div>
 
 		<label class="flex items-start gap-3">
