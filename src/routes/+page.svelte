@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>openEMG — EMG accessibility tech for computer use</title>
+	<title>openEMG · EMG accessibility tech for computer use</title>
 	<meta
 		name="description"
 		content="openEMG builds EMG and EEG devices that give people with disabilities agency over their computers and electronics."
@@ -41,15 +41,15 @@
 		What is the technology?
 	</h2>
 	<p class="mt-3 max-w-2xl text-lg text-gunmetal-700">
-		We work with biosignals — the small electrical voltages your body produces when muscles and
-		neurons fire — and turn them into reliable computer input.
+		We work with biosignals: the tiny electrical voltages your body gives off when muscles and
+		neurons fire, then turn them into reliable computer input.
 	</p>
 
 	<div class="mt-8 grid gap-6 md:grid-cols-2">
 		<Card bg="bg-lavender-blush-100">
 			<h3 class="text-2xl font-extrabold text-gunmetal-900">EMG</h3>
 			<p class="mt-2 text-gunmetal-800">
-				Electromyography reads muscle activity from the surface of the skin — even the faintest
+				Electromyography reads muscle activity right from the surface of your skin, so even the faintest
 				intentional movement can become a click, a gesture, or a keystroke.
 			</p>
 			<div class="mt-5">
@@ -75,7 +75,7 @@
 	<div class="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
 		<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">What we offer</h2>
 		<p class="mt-3 max-w-2xl text-lg text-gunmetal-300">
-			We do accessibility contracting. You tell us what's getting in the way — we figure out a
+			We do accessibility contracting. You tell us what's getting in the way, and we figure out a
 			solution and build it.
 		</p>
 

@@ -45,7 +45,7 @@
 
 {#if status === 'success'}
 	<div class="border-2 border-gunmetal-900 bg-aquamarine-300 p-6 shadow-brutal-lg">
-		<p class="text-xl font-extrabold text-gunmetal-900">Thanks — you're on the list! 🎉</p>
+		<p class="text-xl font-extrabold text-gunmetal-900">Thanks, you're on the list! 🎉</p>
 		<p class="mt-1 text-gunmetal-800">We'll be in touch soon.</p>
 		<button
 			class="mt-4 font-bold text-gunmetal-900 underline underline-offset-4"

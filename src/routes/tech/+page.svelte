@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Technology — openEMG</title>
+	<title>Technology · openEMG</title>
 	<meta
 		name="description"
 		content="How openEMG turns biosignals into computer input, starting with surface electromyography (EMG)."
@@ -27,7 +27,7 @@
 					<h2 class="text-2xl font-extrabold text-gunmetal-900 sm:text-3xl">Surface EMG</h2>
 					<p class="mt-3 text-gunmetal-800">
 						Surface electromyography (sEMG) measures the electrical activity muscles produce when
-						they contract, using sensors placed on the skin — no needles, no surgery. Because the
+						they contract, using sensors that sit on your skin. No needles, no surgery. Because the
 						signal appears the moment you <em>intend</em> to move, even small or partial movements can
 						drive a cursor, trigger a click, or stand in for a key press.
 					</p>

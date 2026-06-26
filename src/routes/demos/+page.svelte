@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Demos — openEMG</title>
+	<title>Demos · openEMG</title>
 	<meta
 		name="description"
 		content="Watch openEMG's biosignal devices in action, including EEG-driven computer control with eye and facial movement."
